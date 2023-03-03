@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-2381.jpg?w=996&t=st=1677753145~exp=1677753745~hmac=4f992b2229519355e101497e003ec782c4f850aebb5e7d071ebc3ee47f7adb98);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 50PX;
+    padding: 20PX;
+    background-size: cover;
+}
+
+#div1 {background-color: pink;}
+#div2 {background-color: wheat;}
+
+.HANOI {line-height: 0.5;}
+.NAMBO {line-height: 0.5;}
+
+a {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50PX;
+    color: black;
+    text-align:center;
+    text-decoration:none;  
+}
+
+.LINK:hover {
+    -webkit-transform: scale(1.05);
+       -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+         -o-transform: scale(1.05);
+            transform: scale(1.05);
+}

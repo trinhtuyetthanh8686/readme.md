@@ -1,0 +1,58 @@
+h1{
+    color: red;
+    text-align: justify;  
+}
+
+p{
+    color: green;
+}
+
+#heading-1{
+    color:blue;
+}
+
+.text-blue {
+    color: brown;
+}
+
+
+
+
+div {
+    color: blueviolet;
+}
+
+.text-orange {
+    color: brown
+}
+
+#div1 {
+    color: pink;
+}
+
+* {
+    color: black;
+}
+
+#heading-2{
+    font-size: 100px; /*cỡ chữ*/
+    font-style: oblique; /*nghiêng đứng*/
+    text-decoration: underline; /*gạch dưới chữ*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:uppercase; /**/
+    
+}
+
+#div2 {
+    font-size: 10px;
+    background-color: pink;
+    width: 300px; /*pxiel để đúng kích thước, % thay đổi theo zoom của trang*/
+    height: 170px;
+
+    border: 10px dashed brown; /*viền khối: sold nét liền*/
+    border-radius: 10px; /*bo góc cho khối*/
+
+    padding: 20px ; /*kích thước khối*/
+    border-bottom: 10px solid black; /*line dưới khối*/
+    
+}
