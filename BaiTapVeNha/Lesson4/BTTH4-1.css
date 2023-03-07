@@ -201,35 +201,37 @@ body {
 }
 
 .hinh3 {
+    float: left;
     box-sizing: border-box;
     position: relative;
-    top: 400PX;
+    top: 50px;
+    width: 50%;
+    height: 180px;
     background-color: rgb(218, 152, 174);
     border: 1px solid red;
-    width: 600PX;
-    height: 220PX;
+    padding: 20px;
+
 }
-.DOANVAN {
-    text-align: justify;
-}
+
 .hinh3-1 {
+    text-align: justify;
     box-sizing: border-box;
     background-color: rgb(167, 168, 201);
     border: 1px solid rgb(64, 62, 97);
     position: absolute;
-    top: 0PX;
-    padding: 10PX;
-    margin: 20PX;
+
+    padding: 10px;
+    margin-right: 10px;
 }
 
 .Keep {
     position: absolute;
-    top: 190px;
+    top: 80%;
     left: 120px;
 }
 .Delete {
     position: absolute;
-    top: 190px;
+    top: 80%;
     left: 50px;
 }
 .hidden1 {
@@ -238,7 +240,7 @@ body {
     background-color: crimson;
     padding: 10px;
     position: absolute;
-    top: 30px;
+    top: 150%;
     left: 10px;
     visibility: hidden;
 
