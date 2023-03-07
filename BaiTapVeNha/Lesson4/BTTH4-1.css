@@ -203,7 +203,7 @@ body {
 .hinh3 {
     box-sizing: border-box;
     position: relative;
-    top: 600PX;
+    top: 400PX;
     background-color: rgb(218, 152, 174);
     border: 1px solid red;
     width: 600PX;
