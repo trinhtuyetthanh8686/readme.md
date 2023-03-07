@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+}
+.header {
+
+    background-color: cadetblue;
+    height: 40px;
+    color: antiquewhite;
+    z-index: 23;
+    width: 100%;
+
+}
+.menu {
+    position: sticky;
+    background-color: pink;
+    height: 50px;
+    z-index: 22;
+
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border: 10px solid rebeccapurple;
+    background-color: brown;
+    margin: 10PX 0px;
+    /* margin: 10 0 10 0; */
+    padding: 20px;
+    /* padding: 20 10 20 10; */
+}
+
+#box1 {
+    margin-top: 40px;
+    position: relative;
+    width: auto;
+    height: 1000px;
+}
+
+#box2 {
+    background-color: aqua;
+    position:relative;
+    top: 50px;
+    /* left: 50%; tính cả trang web */
+    left: 50px;
+}
+
+#box3 {
+    background-color: blue;
+    top: 0PX;
+    right: 0PX;
+    position: absolute;
+    z-index: 1;
+}
+.footer {
+    background-color: cadetblue;
+    height: 40px;
+    color: antiquewhite;
+    position: fixed;
+    bottom: 0;
+    
+    z-index: 21;
+    width: 100%;
+}
