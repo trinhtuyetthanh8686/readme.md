@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header, footer {
+    background-color: blanchedalmond;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5em;
+    margin: 1em;
+}
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 1em;
+}
+.L, .R {
+        background-color: lightblue;
+        display: flex;
+        align-items: center;
+        height: 10em;
+        padding: 1rem;
+
+}
+.C {
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 1em;
+    width: 100% ;
+}
+
+
+
